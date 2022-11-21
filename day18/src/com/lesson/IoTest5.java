@@ -22,6 +22,8 @@ public class IoTest5 {
         file5.createNewFile();
         file6.createNewFile();
         File file7 = new File("C:\\code\\aaa");
+
+
         String[] list = file7.list();
         for (String s : list) {
             System.out.println(s);

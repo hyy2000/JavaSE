@@ -19,9 +19,9 @@ public class OutputStremTest {
 
 
 
-        FileInputStream fis = new FileInputStream("1.txt");
+      /*  FileInputStream fis = new FileInputStream("1.txt");
 
-        System.out.println(fis.read());
+        System.out.println(fis.read());*/
 
 
     }
