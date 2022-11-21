@@ -1,6 +1,7 @@
 package com.preview;
 
 import java.util.TreeSet;
+//自然排序
 
 public class TreeSetTest01 {
     public static void main(String[] args) {
@@ -10,7 +11,7 @@ public class TreeSetTest01 {
         Student s3 = new Student("程蝶衣3",19);
         Student s4 = new Student("程蝶衣4",15);
         Student s5 = new Student("程蝶衣5",16);
-        Student s6 = new Student("程蝶衣5",16);
+        Student s6 = new Student("程蝶衣6",16);
 
         ts.add(s1);
         ts.add(s2);

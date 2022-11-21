@@ -44,4 +44,11 @@ public class Student implements Comparable{
         int i = this.getAge() - ((Student) o).getAge();
         return ((i == 0) ? (this.getName().compareTo(s.getName())):i);
     }
+    /*
+    * // 该方法的返回值 代表的就是 排序的依据(两个对象的差值)
+    //  返回值为 0  两个对象的差值为0
+    // 返回值 为 < 0  -1   前 > 后   倒序
+    // 返回值 为 > 0 1     前< 后  正序
+    // 按照 对象的年龄  正序排序
+    // 当年龄相等,再按姓名名  默认字符串排序*/
 }
