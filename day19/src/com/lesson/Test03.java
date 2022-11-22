@@ -17,7 +17,7 @@ public class Test03 {
         fr.close();
         fw.close();
 
-
+/*
         FileReader fr1 = new FileReader("C:\\code\\aaa\\水墨泛舟.jpg");
         FileWriter fw1 = new FileWriter("C:\\code\\aaa\\水墨泛舟副本副本.jpg");
         int len1;
@@ -26,7 +26,7 @@ public class Test03 {
         }
 
         fr1.close();
-        fw1.close();
+        fw1.close();*/
 
     }
 }
