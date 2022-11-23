@@ -28,7 +28,6 @@ public class SellTicket1 {
 class windows1 extends Thread {
     private static int ticket = 1000;
 
-
     public windows1(String name) {
         super(name);
     }
